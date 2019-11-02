@@ -1,0 +1,121 @@
+html,
+body {
+  margin: 5px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f5f7;
+}
+
+/* global app */
+.app {
+  padding: 0.75%;
+  margin-top: 4.5%;
+  background-color: #fff;
+}
+/* legend list */
+.legend-list {
+  margin-left: 38%;
+}
+.color-box {
+  width: 15px;
+  height: 15px;
+}
+/* change fortnight */
+.previous-fn,
+.next-fn {
+  color: #33bfed;
+  cursor: pointer;
+}
+.next-fn {
+  text-align: right;
+}
+.previous-fn:hover,
+.next-fn:hover {
+  color: #333;
+}
+/* user-details */
+.title {
+  font-size: 16px;
+  color: #33bfed;
+}
+.user-name {
+  font-size: 18px;
+  color: #33bfed;
+  min-width: 157px !important;
+  padding-right: 0;
+}
+.user-mobile {
+  color: #666666;
+}
+hr {
+  margin-top: 0.45rem;
+}
+/* ratings */
+.star {
+  color: gold;
+  font-size: 18px;
+}
+/* ae checkbox */
+.ae-checkbox {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+}
+.ae-checkbox:after {
+  content: "AE+C";
+  margin-left: 30px;
+}
+/* change fortnight */
+.button {
+  color: #33bfed;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.button:hover {
+  color: #333;
+}
+/* calendar */
+.date-list {
+  text-align: center;
+}
+.date {
+  width: 28px;
+  padding-left: 8px;
+}
+/*status-list*/
+.status-list {
+  text-align: center;
+}
+.status-list > td {
+  height: 50px !important;
+}
+.date-status {
+  height: 65px;
+  vertical-align: middle !important;
+}
+/*popup*/
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 39%;
+  padding: 6px;
+  margin: auto;
+  border-radius: 20px;
+  background: white;
+  text-align: center;
+}
